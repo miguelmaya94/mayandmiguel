@@ -1,0 +1,135 @@
+    body {
+  margin: 0;
+ font-family: 'Playfair Display', serif;
+}
+.topnav {
+   
+  overflow: hidden;
+   background-color:darkblue;
+   top:0;  
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 30px;
+  text-decoration: none;
+  font-size: 21px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
+    .M {
+        width: 70px;
+        display: block;
+        margin-left: auto;
+      display: block;
+        }
+    p{
+        padding: 20px;
+        font-size: 11pt;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-style: double;
+        border-color: darkblue;
+          font-family: 'Roboto', sans-serif;
+        color: aliceblue;
+        text-align:inherit;
+}
+    #div5{
+         border: 0px black;
+        background-color: black;
+        padding: 13px;
+        margin: 0px;
+        margin-top: 0px;
+        display: block;
+        color: aliceblue;
+        text-align: center;
+        font-size: 14px;
+        width: 100%;
+        position: fixed; 
+        bottom: 0px;
+            }
+    #selfie2{
+      margin-top: 10px; 
+    }
+   #selfie3{
+        margin-top: 10px;
+    }
+   #selfie5{
+        margin-top: 50px;
+    }
+    #two{
+        background-color:#0052EB;
+       margin-right: auto;
+        margin-left: auto;
+            width: 70%; 
+    }
+      #three{
+        background-color: #102CD6;
+         margin-right: auto;
+        margin-left: auto;
+        width: 70%;  
+    }
+      #five{
+        background-color:  mediumblue;
+        width: 70%;
+     margin-right: auto;
+        margin-left: auto;
+       }
+    #link{
+        color: darkblue;
+    }
+     #linktwo{
+        color: lightblue;
+    }
+     @media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display:none;}
+  .topnav a.icon {
+    float:right;
+    display: block;
+  }
+  }
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: fixed;}
+  .topnav.responsive .icon {
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 12px;
+    top:0;
+  }
+  #selfie2, #selfie3, #selfie5 {
+            display: none;  
+  }
+        p{
+            font-size: 16px;
+            padding:0px;
+        }
+         #two, #three, #five{
+             width:100%;
+        }
+         #div5{
+            max-width: 100%;
+            font-size: 8px;
+        }
+         .M{
+                 visibility: hidden  !important;
+ }
+}
