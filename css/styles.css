@@ -214,18 +214,13 @@ img {vertical-align: middle;}
          margin-bottom: 100px;   
     }
     .fa {
-  padding: 23px;
+  padding: 0px;
   font-size: 30px;
   width: 25%;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  margin-right: auto;
- margin-left: auto;
-display: inline;
- align-self: center;
- align-items: center;
- align-content: center;
+ 
 }
 .fa:hover {
     opacity: 0.7;
