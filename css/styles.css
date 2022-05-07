@@ -269,7 +269,7 @@ img {vertical-align: middle;}
         text-align: center;
         font-size: 14px;
        width: 100%;
-        position: fixed; 
+        position:   static; 
         bottom: 0px;
             }
      @media screen and (max-width: 600px) {

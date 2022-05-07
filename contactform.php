@@ -55,8 +55,8 @@ $sql = "INSERT INTO `tb_contact` (`Id`, `fldName`, `fldEmail`, `fldPhone`, `fldM
         <a href="contact.html">Contact</a>
         <a href="exGetParameter.html">Java</a>
        
-        <a href="https://www.mayamultimedia.com/">Maya Multimedia LLC</a>
-        <a href="login.jsp">Login</a>
+        <a href="https://www.mayamultimedia.com/" target="_blank">Maya Multimedia LLC</a>
+
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
@@ -95,7 +95,7 @@ if($rs)
         </script>
         <footer>
             <div id="div5">
-                Maya Multimedia LLC All Copyrights Reserved 2020-21 \ Graphic Design Scientist and Software Engineer \ Miguel.maya88@csu.fullerton.edu
+                Maya Multimedia LLC All Copyrights Reserved 2020-22 \ Graphic Design Scientist and Software Engineer \ Miguel.maya88@csu.fullerton.edu
             </div>
         </footer>
 </body>

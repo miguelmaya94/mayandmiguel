@@ -107,9 +107,9 @@
   <a href="news.html">Artworks</a>
 <a href="ContactPage">Contact</a>
 <a href="exGetParameter.html">Java</a>
-<a href="https://www.mealsbymilzee.com/">Milzee</a>
- <a href="https://www.mayamultimedia.com/">Maya Multimedia LLC</a>
-    <a href="login.jsp">Login</a>
+
+ <a href="https://www.mayamultimedia.com/" target="_blank">Maya Multimedia LLC</a>
+   \
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
@@ -146,6 +146,6 @@ function myFunction() {
     </body>
        <footer>
       <div id= "div5">
-           Maya Multimedia LLC All Copyrights Reserved 2020-21 \ Maya Designs \ Graphic Design Scientist and Software Engineer \ Miguel.maya88@csu.fullerton.edu</div>
+           Maya Multimedia LLC All Copyrights Reserved 2020-22 \ Maya Designs \ Graphic Design Scientist and Software Engineer \ Miguel.maya88@csu.fullerton.edu</div>
     </footer>
 </html>

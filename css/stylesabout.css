@@ -3,10 +3,11 @@
  font-family: 'Playfair Display', serif;
 }
 .topnav {
-   
-  overflow: hidden;
-   background-color:darkblue;
-   top:0;  
+    overflow: hidden;
+    background-color: darkblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .topnav a {
   float: left;
@@ -48,7 +49,7 @@
 }
 #container {
 
-
+   margin-top:100px;
     max-width:1200px;
     margin-left:auto;
     margin-right:auto;
@@ -84,6 +85,7 @@
     margin-left: auto;
     width: 100%;
     background-color:orange;
+    
 }
 #two {
     background-color: white;
