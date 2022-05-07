@@ -4,7 +4,24 @@
     <title>Maya Multimedia</title>
     <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Radley:ital@1&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VD3HW357BT"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D4WEYX9VHE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-D4WEYX9VHE');
+    </script>
+</head>
 <body>
 
 
@@ -15,7 +32,7 @@
         <a href="contact.html">Contact</a>
         <a href="exGetParameter.html">Java</a>
         <a href="https://www.mayamultimedia.com/">Maya Multimedia LLC</a>
-     
+
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
@@ -23,7 +40,10 @@
     </div>
 
     <div id="container">
-
+        <p>
+            <h1>Welcome to my website please fill our contact form and we will contact you shorlty.</h1>
+            
+        </p>
         <div id="forms">
 
             <form class="forms" action="contactform.php" method="POST">
@@ -58,7 +78,7 @@
     <br>
     <br>
     <script>
-    function myFunction() {
+        function myFunction() {
             var x = document.getElementById("myTopnav");
             if (x.className === "topnav") {
                 x.className += " responsive";

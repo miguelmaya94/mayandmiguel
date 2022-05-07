@@ -51,6 +51,17 @@ border: 0;
          background-color:#11C3F5;
             text-decoration:  underline;    
     }
+#forms, #testForm{
+    text-align:center;
+    margin-top:200px;
+    font-size:3rem;
+    margin-bottom:200px;
+}
+
+h1{
+    margin-top:200px;
+    text-align:center;
+}
     .p{
         padding: 5px;
         font-size: 16pt;
@@ -328,5 +339,12 @@ img {vertical-align: middle;}
     #div3{
         font-size: 24px;
     }
+    #forms, #testForm {
+        text-align: center;
+
+        font-size: 1rem;
+      
+    }
+
   }
 

@@ -4,7 +4,23 @@
     <title>Maya Multimedia</title>
     <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Radley:ital@1&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VD3HW357BT"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D4WEYX9VHE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
+        gtag('config', 'G-D4WEYX9VHE');
+    </script>
 </head>
 <body>
 
@@ -16,21 +32,20 @@
         <a href="contact.html">Contact</a>
         <a href="exGetParameter.html">Java</a>
         <a href="https://www.mayamultimedia.com/">Maya Multimedia LLC</a>
-
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
         <img src="images/B_cards.jpg" alt="B" class="M">
     </div>
-
-
-
-    <!-- Here we specify that the from data will be sent to
+   
+    <!-- Here we specify that the form data will be sent to
           getparam.jsp page using the action attribute
      -->
     <div class="contain">
+        <div id="forms"
         <form name="testForm" action="getparam.jsp">
-            <label><h2>Welcome to my website<h2 /></label><br />
+            <label><h3>Welcome to my website please fill our form,
+                this exercise shows an example of Java and JSP.</h3></label><br />
             <p>please enter your first name:</p>
             <input type="text" name="testParam"><br />
             <p>Please enter your favorite color:</p>
@@ -38,17 +53,20 @@
             <p>Please enter your age</p>
             <input type="number" name="testParamthree"><br />
             <input type="submit">
-        </form>
-    </div>
 
-    function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-    x.className += " responsive";
-    } else {
-    x.className = "topnav";
-    }
-    }</script>
+        </form> 
+         </div>
+
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }</script>
     <footer>
         <div id="div5">
             Maya Multimedia LLC All Copyrights Reserved 2020-21 \ Graphic Design Scientist and Software Engineer \ Miguel.maya88@csu.fullerton.edu
