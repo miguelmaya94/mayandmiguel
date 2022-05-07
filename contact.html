@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>Maya Multimedia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    </head>
+<body>
+
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Welcome!</a>
+        <a href="about.html">About</a>
+        <a href="news.html">Artworks</a>
+        <a href="contact.html">Contact</a>
+        <a href="exGetParameter.html">Java</a>
+        <a href="https://www.mayamultimedia.com/">Maya Multimedia LLC</a>
+     
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <img src="images/B_cards.jpg" alt="B" class="M">
+    </div>
+
+    <div id="container">
+
+        <div id="forms">
+
+            <form class="forms" action="contactform.php" method="POST">
+
+                <p>
+                    <label for="Name">Name</label>
+                    <input type="text" name="txtName" id="txtName">
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="text" name="txtEmail" id="txtEmail">
+                </p>
+                <p>
+                    <label for="phone">Phone</label>
+                    <input type="text" name="txtPhone" id="txtPhone">
+                </p>
+                <p>
+                    <label for="message">Message</label>
+                    <textarea name="txtMessage" id="txtMessage"></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" name="Submit" id="Submit" value="Submit">
+                </p>
+            </form>
+        </div>
+
+    </div>
+
+
+
+    <br>
+    <br>
+    <script>
+    function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }</script>
+    <footer>
+        <div id="div5">
+            Maya Multimedia LLC All Copyrights Reserved 2020-21 \ Graphic Design Scientist and Software Engineer \ Miguel.maya88@csu.fullerton.edu
+        </div>
+    </footer>
+</body>
+</html>

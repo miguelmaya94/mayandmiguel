@@ -36,16 +36,23 @@
         }
     p{
         padding: 20px;
-        font-size: 11pt;
-        padding-left: 200px;
-        padding-right: 200px;
+        font-size: 30pt;
+       
         padding-top: 50px;
         padding-bottom: 50px;
-        border-style: double;
+       
         border-color: darkblue;
           font-family: 'Roboto', sans-serif;
-        color: aliceblue;
+        color: black;
         text-align:inherit;
+}
+#container {
+
+
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+
 }
     #div5{
          border: 0px black;
@@ -61,33 +68,43 @@
         position: fixed; 
         bottom: 0px;
             }
-    #selfie2{
-      margin-top: 10px; 
-    }
+    #selfieOne{
+       margin-left:0;
+     
+       
+    } 
    #selfie3{
         margin-top: 10px;
     }
    #selfie5{
         margin-top: 50px;
     }
-    #two{
-        background-color:#0052EB;
-       margin-right: auto;
-        margin-left: auto;
-            width: 70%; 
-    }
-      #three{
-        background-color: #102CD6;
-         margin-right: auto;
-        margin-left: auto;
-        width: 70%;  
-    }
-      #five{
-        background-color:  mediumblue;
-        width: 70%;
-     margin-right: auto;
-        margin-left: auto;
-       }
+#one {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    background-color:lightblue;
+}
+#two {
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+#three {
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+#five {
+    background-color: white;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
     #link{
         color: darkblue;
     }
